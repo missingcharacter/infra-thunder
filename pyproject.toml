@@ -12,7 +12,7 @@ pulumi-tls = "4.6.0"
 pulumi-datadog = "4.4.0"
 pulumi_random = "4.2.0"
 pulumi-aws = { version = "4.33.0", optional = true }
-pulumi-azure-native = { version = "1.28.0", optional = true }
+pulumi-azure-native = { version = "2.21.2", optional = true }
 pulumi-azuread = { version = "5.7.0", optional = true }
 azure-core = { version = "1.19.0", optional = true }
 azure-mgmt-authorization = { version = "2.0.0", optional = true }
