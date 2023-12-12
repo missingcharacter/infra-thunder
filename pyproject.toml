@@ -42,7 +42,7 @@ azure = ["pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-auth
 all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-authorization"]
 
 [tool.poetry.group.dev.dependencies]
-poethepoet = "^0.11.0"
+poethepoet = "^0.24.0"
 black = "22.3.0"
 flake8 = "^4.0.1"
 

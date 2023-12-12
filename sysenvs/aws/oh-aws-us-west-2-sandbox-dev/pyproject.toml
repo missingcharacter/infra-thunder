@@ -10,7 +10,7 @@ infra-thunder = {git = "git@github.com:Over-haul/infra-thunder-public.git", rev 
 #infra-thunder = { path = "/local/path/to/infra-thunder-public", extras = ["aws"], develop = true }
 
 [tool.poetry.dev-dependencies]
-poethepoet = "^0.11.0"
+poethepoet = "^0.24.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
