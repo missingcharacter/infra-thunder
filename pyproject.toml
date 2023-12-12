@@ -10,7 +10,7 @@ pulumi = "3.9.1"
 pulumi-kubernetes = "3.5.1"
 pulumi-tls = "4.6.0"
 pulumi-datadog = "4.4.0"
-pulumi_random = "4.2.0"
+pulumi_random = "4.15.0"
 pulumi-aws = { version = "4.33.0", optional = true }
 pulumi-azure-native = { version = "1.28.0", optional = true }
 pulumi-azuread = { version = "5.7.0", optional = true }
