@@ -31,7 +31,7 @@ click-option-group = "^0.5.3"
 grpcio = "^1.43.0"
 protobuf = "^3.19.3"
 # Pinned because we cannot bump to a new Jinja2 because of HiYaPyCo
-MarkupSafe = "2.0.1"
+MarkupSafe = "2.1.3"
 pulumi-cloudflare = "^4.6.0"
 pulumi-postgresql = "^3.4.0"
 
