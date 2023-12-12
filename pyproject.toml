@@ -29,7 +29,7 @@ boto3 = "^1.20.26"
 click = "^8.0.3"
 click-option-group = "^0.5.3"
 grpcio = "^1.43.0"
-protobuf = "^3.19.3"
+protobuf = "^4.0.0"
 # Pinned because we cannot bump to a new Jinja2 because of HiYaPyCo
 MarkupSafe = "2.0.1"
 pulumi-cloudflare = "^4.6.0"
