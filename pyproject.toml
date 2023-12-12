@@ -43,7 +43,7 @@ all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azu
 
 [tool.poetry.group.dev.dependencies]
 poethepoet = "^0.11.0"
-black = "22.3.0"
+black = "23.12.0"
 flake8 = "^4.0.1"
 
 [tool.poetry.scripts]
