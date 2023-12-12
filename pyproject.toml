@@ -7,7 +7,7 @@ authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 pulumi = "3.9.1"
-pulumi-kubernetes = "3.5.1"
+pulumi-kubernetes = "4.5.5"
 pulumi-tls = "4.6.0"
 pulumi-datadog = "4.4.0"
 pulumi_random = "4.2.0"
