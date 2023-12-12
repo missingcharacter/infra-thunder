@@ -21,7 +21,7 @@ dacite = "1.6.0"
 # Pinned because HiYaPyCo is not compatible with newer versions of Jinja2
 Jinja2 = "2.11.2"
 Sphinx = "3.3.1"
-HiYaPyCo = "^0.4.16"
+HiYaPyCo = "^0.5.0"
 semver = "^2.8.1"
 wheel = "^0.37.0"
 jmespath = "^0.10.0"
