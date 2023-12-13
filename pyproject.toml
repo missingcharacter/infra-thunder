@@ -6,34 +6,32 @@ authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pulumi = "3.9.1"
-pulumi-kubernetes = "3.5.1"
-pulumi-tls = "4.6.0"
-pulumi-datadog = "4.4.0"
-pulumi_random = "4.2.0"
-pulumi-aws = { version = "4.33.0", optional = true }
-pulumi-azure-native = { version = "1.28.0", optional = true }
-pulumi-azuread = { version = "5.7.0", optional = true }
-azure-core = { version = "1.19.0", optional = true }
-azure-mgmt-authorization = { version = "2.0.0", optional = true }
-kubernetes = "^12.0.1"
-dacite = "1.6.0"
+pulumi = "3.96.2"
+pulumi-kubernetes = "4.5.5"
+pulumi-tls = "5.0.0"
+pulumi-datadog = "4.23.0"
+pulumi_random = "4.15.0"
+pulumi-aws = { version = "6.13.3", optional = true }
+pulumi-azure-native = { version = "2.21.2", optional = true }
+pulumi-azuread = { version = "5.46.0", optional = true }
+azure-core = { version = "1.29.5", optional = true }
+azure-mgmt-authorization = { version = "4.0.0", optional = true }
+kubernetes = "^28.0.0"
+dacite = "1.8.1"
 # Pinned because HiYaPyCo is not compatible with newer versions of Jinja2
-Jinja2 = "2.11.2"
-Sphinx = "3.3.1"
-HiYaPyCo = "^0.4.16"
-semver = "^2.8.1"
-wheel = "^0.37.0"
-jmespath = "^0.10.0"
-boto3 = "^1.20.26"
-click = "^8.0.3"
-click-option-group = "^0.5.3"
-grpcio = "^1.43.0"
-protobuf = "^3.19.3"
+Jinja2 = "3.1.2"
+Sphinx = "7.2.6"
+HiYaPyCo = "^0.5.0"
+wheel = "^0.42.0"
+jmespath = "^1.0.0"
+boto3 = "^1.33.13"
+click = "^8.1.7"
+click-option-group = "^0.5.6"
+protobuf = "^4.0.0"
 # Pinned because we cannot bump to a new Jinja2 because of HiYaPyCo
-MarkupSafe = "2.0.1"
-pulumi-cloudflare = "^4.6.0"
-pulumi-postgresql = "^3.4.0"
+MarkupSafe = "2.1.3"
+pulumi-cloudflare = "^5.0.0"
+pulumi-postgresql = "^3.10.0"
 
 
 [tool.poetry.extras]
@@ -42,9 +40,9 @@ azure = ["pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-auth
 all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-authorization"]
 
 [tool.poetry.group.dev.dependencies]
-poethepoet = "^0.11.0"
-black = "22.3.0"
-flake8 = "^4.0.1"
+poethepoet = "^0.24.0"
+black = "^23.12.0"
+flake8 = "^6.0.0"
 
 [tool.poetry.scripts]
 infra_thunder = "infra_thunder.lib.cli:run"
