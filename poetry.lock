@@ -944,13 +944,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-kubernetes"
-version = "4.5.5"
+version = "4.6.0"
 description = "A Pulumi package for creating and managing Kubernetes resources."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pulumi_kubernetes-4.5.5-py3-none-any.whl", hash = "sha256:b428e932b69938341392be1a4f28b32ef8770099dad833c14c806c59c19762db"},
-    {file = "pulumi_kubernetes-4.5.5.tar.gz", hash = "sha256:4b529782dbab174bd6bb34103e93b538b52471e7c06ef928082a92e016ff6b47"},
+    {file = "pulumi_kubernetes-4.6.0-py3-none-any.whl", hash = "sha256:d4515c4a8aaea49f737e07885f29c885e84b3f9960234c7b28faafee20ebc7ce"},
+    {file = "pulumi_kubernetes-4.6.0.tar.gz", hash = "sha256:79e8b0829284a7cf457d2036a123dae2241548e2e191f152f526a719f5bf7453"},
 ]
 
 [package.dependencies]
@@ -1474,4 +1474,4 @@ azure = ["azure-core", "azure-mgmt-authorization", "pulumi-azure-native", "pulum
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "935ad9ee19ab6c100a239d571712f82c4c95bce306cfe055f27fd6b13e70a6de"
+content-hash = "b4a8ec2fed5b0c61ccb8a290cad80f4f37c12990fc65e89be6ad6e046abaf0ac"
