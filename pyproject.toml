@@ -6,15 +6,15 @@ authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pulumi = "3.96.2"
-pulumi-kubernetes = "4.6.0"
+pulumi = "3.100.0"
+pulumi-kubernetes = "4.6.1"
 pulumi-tls = "5.0.0"
 pulumi-datadog = "4.23.0"
 pulumi_random = "4.15.0"
-pulumi-aws = { version = "6.13.3", optional = true }
-pulumi-azure-native = { version = "2.21.2", optional = true }
-pulumi-azuread = { version = "5.46.0", optional = true }
-azure-core = { version = "1.29.5", optional = true }
+pulumi-aws = { version = "6.17.0", optional = true }
+pulumi-azure-native = { version = "2.24.0", optional = true }
+pulumi-azuread = { version = "5.47.0", optional = true }
+azure-core = { version = "1.29.6", optional = true }
 azure-mgmt-authorization = { version = "4.0.0", optional = true }
 kubernetes = "^28.0.0"
 dacite = "1.8.1"
@@ -42,7 +42,7 @@ all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azu
 [tool.poetry.group.dev.dependencies]
 poethepoet = "^0.24.0"
 black = "^23.12.0"
-flake8 = "^6.0.0"
+flake8 = "^7.0.0"
 
 [tool.poetry.scripts]
 infra_thunder = "infra_thunder.lib.cli:run"
