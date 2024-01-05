@@ -8,7 +8,7 @@ Here you'll find the necessary steps for creating and/or setting up a new
 ## Requirements
 
 - Thunder requirements - can be found
-  [here](https://github.com/Over-haul/infra-thunder-public/blob/master/README.Quickstart.md#thunder-quick-start)
+  [here](https://github.com/missingcharacter/infra-thunder/blob/master/README.Quickstart.md#thunder-quick-start)
   - Python 3.9+
   - pulumi
   - direnv
@@ -22,8 +22,8 @@ Here you'll find the necessary steps for creating and/or setting up a new
     - `/16`
 - You cloned the following repositories to your local environment
   - <https://github.com/Over-haul/cloud-accounts-tools>
-  - <https://github.com/Over-haul/infra-thunder-public>
-- You are familiar with infra-thunder topics - seen [here](https://github.com/Over-haul/infra-thunder-public#topics)
+  - <https://github.com/missingcharacter/infra-thunder>
+- You are familiar with infra-thunder topics - seen [here](https://github.com/missingcharacter/infra-thunder#topics)
 
 ## Creating a new SysEnv
 
@@ -91,7 +91,7 @@ AWS_PROFILE=<primary account alias> poetry run python setup_account.py -a oh-aws
 - Create a new Datadog API Key specific to this SysEnv
   - **Note:** It is important to create the new Datadog API Key and App Key as
     a [service account](https://docs.datadoghq.com/account_management/org_settings/service_accounts/)
-- `cd` into <https://github.com/Over-haul/infra-thunder-public>
+- `cd` into <https://github.com/missingcharacter/infra-thunder>
 - `cd` into `sysenvs/aws`
 - Create a new folder named after the SysEnv you want to create, Example: oh-aws-us-west-2-app-dev
   - To avoid writing a lot of boilerplate code we recommend you copy from an existing folder
