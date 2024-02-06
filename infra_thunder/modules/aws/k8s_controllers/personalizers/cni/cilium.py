@@ -39,7 +39,7 @@ def _install_cni(cls, provider: kubernetes_provider.Provider, cluster_config: K8
                 "ipam.mode": "eni",
                 "egressMasqueradeInterfaces": "eth0",
                 "tunnel": "disabled",
-                "nodeinit.enabled": "true"
+                "nodeinit.enabled": "true",
                 # "hostreachableservices"??
                 # default security groups??
                 # default subnets

@@ -33,14 +33,16 @@ def get_ami(name_prefix: str) -> GetAmiResult:
         owners=[thunder_env.get("ami_owner", "self")],
         most_recent=True,
         filters=[
-            GetAmiFilterArgs(
-                name="image-id",
-                values=[id_override],
-            )
-            if id_override
-            else GetAmiFilterArgs(
-                name="name",
-                values=[f"{prefix}*"],
+            (
+                GetAmiFilterArgs(
+                    name="image-id",
+                    values=[id_override],
+                )
+                if id_override
+                else GetAmiFilterArgs(
+                    name="name",
+                    values=[f"{prefix}*"],
+                )
             )
         ],
     )

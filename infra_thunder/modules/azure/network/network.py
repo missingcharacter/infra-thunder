@@ -152,28 +152,32 @@ class Network(AzureModule):
                 virtual_network_name=vnet.name,
                 subnet_name=subnet_name,
                 address_prefix=subnet_args.cidr_block,
-                nat_gateway=network.SubResourceArgs(
-                    id=nat_gateway.id,
-                )
-                if nat_gateway
-                and (
-                    subnet_args.purpose != SubnetPurpose.GATEWAY
-                    and subnet_args.purpose != SubnetPurpose.PUBLIC
-                    and subnet_args.purpose != SubnetPurpose.FIREWALL
-                )
-                else None,
+                nat_gateway=(
+                    network.SubResourceArgs(
+                        id=nat_gateway.id,
+                    )
+                    if nat_gateway
+                    and (
+                        subnet_args.purpose != SubnetPurpose.GATEWAY
+                        and subnet_args.purpose != SubnetPurpose.PUBLIC
+                        and subnet_args.purpose != SubnetPurpose.FIREWALL
+                    )
+                    else None
+                ),
                 resource_group_name=self.resourcegroup.name,
                 route_table=network.RouteTableArgs(id=subnet_route_table.id),
-                delegations=[
-                    network.DelegationArgs(
-                        # Name is the simple name (PostgresFlexibleServers)
-                        name=subnet_args.delegation.name,
-                        # Value is the full name (Microsoft.DBforPostgreSQL/flexibleServers)
-                        service_name=subnet_args.delegation.value,
-                    )
-                ]
-                if subnet_args.delegation
-                else None,
+                delegations=(
+                    [
+                        network.DelegationArgs(
+                            # Name is the simple name (PostgresFlexibleServers)
+                            name=subnet_args.delegation.name,
+                            # Value is the full name (Microsoft.DBforPostgreSQL/flexibleServers)
+                            service_name=subnet_args.delegation.value,
+                        )
+                    ]
+                    if subnet_args.delegation
+                    else None
+                ),
                 service_endpoints=endpoints,
                 # depend on the previous subnet to be created... working around a pulumi bug:
                 # https://github.com/pulumi/pulumi-azure-native/issues/903

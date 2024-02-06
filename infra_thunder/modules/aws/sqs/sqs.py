@@ -52,14 +52,16 @@ class SQS(AWSModule):
             deduplication_scope=deduplication.scope,
             message_retention_seconds=retention_seconds,
             fifo_throughput_limit=fifo_throughput_limit,
-            redrive_policy=json.dumps(
-                {
-                    "deadLetterTargetArn": redrive.deadletter_arn,
-                    "maxReceiveCount": redrive.max_receive_count,
-                }
-            )
-            if redrive
-            else None,
+            redrive_policy=(
+                json.dumps(
+                    {
+                        "deadLetterTargetArn": redrive.deadletter_arn,
+                        "maxReceiveCount": redrive.max_receive_count,
+                    }
+                )
+                if redrive
+                else None
+            ),
             tags=get_tags(service="sqs", role="queue", group=name),
             opts=ResourceOptions(parent=self),
         )
