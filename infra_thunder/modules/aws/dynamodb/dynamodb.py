@@ -50,21 +50,25 @@ class DynamoDB(AWSModule):
                 dynamodb.TableReplicaArgs(region_name=replica.region_name, kms_key_arn=replica.kms_key_arn)
                 for replica in args.replicas
             ],
-            server_side_encryption=dynamodb.TableServerSideEncryptionArgs(
-                enabled=args.server_side_encryption.enabled,
-                kms_key_arn=args.server_side_encryption.kms_key_arn,
-            )
-            if args.server_side_encryption
-            else None,
+            server_side_encryption=(
+                dynamodb.TableServerSideEncryptionArgs(
+                    enabled=args.server_side_encryption.enabled,
+                    kms_key_arn=args.server_side_encryption.kms_key_arn,
+                )
+                if args.server_side_encryption
+                else None
+            ),
             stream_enabled=args.stream_enabled,
             stream_view_type=args.stream_view_type.value if args.stream_view_type else None,
-            ttl=dynamodb.TableTtlArgs(
-                attribute_name=args.ttl.attribute_name,
-                enabled=args.ttl.enabled,
-                kms_key_arn=args.ttl.kms_key_arn,
-            )
-            if args.ttl
-            else None,
+            ttl=(
+                dynamodb.TableTtlArgs(
+                    attribute_name=args.ttl.attribute_name,
+                    enabled=args.ttl.enabled,
+                    kms_key_arn=args.ttl.kms_key_arn,
+                )
+                if args.ttl
+                else None
+            ),
             write_capacity=args.write_capacity,
             tags=get_tags(get_stack(), "table", args.name),
         )

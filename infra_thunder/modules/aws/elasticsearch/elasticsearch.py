@@ -99,19 +99,21 @@ class ElasticSearch(AWSModule):
                 security_group_ids=security_group_ids,
                 subnet_ids=subnet_ids,
             ),
-            access_policies={
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Effect": "Allow",
-                        "Principal": {"AWS": "*"},
-                        "Action": "es:*",
-                        "Resource": "*",
-                    }
-                ],
-            }
-            if config.disable_authentication
-            else None,
+            access_policies=(
+                {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {"AWS": "*"},
+                            "Action": "es:*",
+                            "Resource": "*",
+                        }
+                    ],
+                }
+                if config.disable_authentication
+                else None
+            ),
             advanced_options=config.advanced_options,
             tags=get_tags(service="elasticsearch", role="domain", group=config.name),
             opts=ResourceOptions(parent=self, ignore_changes=["advancedOptions"]),

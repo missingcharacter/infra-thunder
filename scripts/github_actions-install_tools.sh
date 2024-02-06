@@ -71,7 +71,7 @@ OS="$(get_os)"
 
 echo "Python version is $(python -V)"
 pip install --upgrade pip wheel poetry
-poetry install
+poetry install --no-root
 
 echo "Install shellcheck"
 SHELLCHECK_VERSION="$(get_latest_github_tag 'koalaman' 'shellcheck' 'true')"

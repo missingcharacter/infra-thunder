@@ -21,6 +21,7 @@ use tgw prefix list?
 can't use get_tags for remote resources - must build tags manually (?)
 can't use get_subnets for remote resources - must do it manually
 """
+
 from dataclasses import dataclass
 from typing import Optional
 

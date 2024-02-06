@@ -195,7 +195,7 @@ class K8sControllers(AzureModule):
             # bootstrap_msi=bootstrap_role.arn,
             admin_kubeconfig=kubeconfig,
             agent_secrets=K8sControllerAgentSecretsExports(vault_id=agent_vault.id, vault_secrets=agent_secret_uris),
-            agent_bootstrap_msi_id=bootstrap_msi.id
+            agent_bootstrap_msi_id=bootstrap_msi.id,
             # iam_kubeconfig=iam_kubeconfig
         )
 
