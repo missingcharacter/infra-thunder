@@ -27,7 +27,6 @@ jmespath = "^1.0.0"
 boto3 = "^1.33.13"
 click = "^8.1.7"
 click-option-group = "^0.5.6"
-protobuf = "^5.0.0"
 # Pinned because we cannot bump to a new Jinja2 because of HiYaPyCo
 MarkupSafe = "2.1.5"
 pulumi-cloudflare = "^5.0.0"
