@@ -121,33 +121,33 @@ dev = ["freezegun (>=1.0,<2.0)", "pytest (>=6.0)", "pytest-cov"]
 
 [[package]]
 name = "black"
-version = "24.4.0"
+version = "24.4.2"
 description = "The uncompromising code formatter."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "black-24.4.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:6ad001a9ddd9b8dfd1b434d566be39b1cd502802c8d38bbb1ba612afda2ef436"},
-    {file = "black-24.4.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:e3a3a092b8b756c643fe45f4624dbd5a389f770a4ac294cf4d0fce6af86addaf"},
-    {file = "black-24.4.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dae79397f367ac8d7adb6c779813328f6d690943f64b32983e896bcccd18cbad"},
-    {file = "black-24.4.0-cp310-cp310-win_amd64.whl", hash = "sha256:71d998b73c957444fb7c52096c3843875f4b6b47a54972598741fe9a7f737fcb"},
-    {file = "black-24.4.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:8e5537f456a22cf5cfcb2707803431d2feeb82ab3748ade280d6ccd0b40ed2e8"},
-    {file = "black-24.4.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:64e60a7edd71fd542a10a9643bf369bfd2644de95ec71e86790b063aa02ff745"},
-    {file = "black-24.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5cd5b4f76056cecce3e69b0d4c228326d2595f506797f40b9233424e2524c070"},
-    {file = "black-24.4.0-cp311-cp311-win_amd64.whl", hash = "sha256:64578cf99b6b46a6301bc28bdb89f9d6f9b592b1c5837818a177c98525dbe397"},
-    {file = "black-24.4.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:f95cece33329dc4aa3b0e1a771c41075812e46cf3d6e3f1dfe3d91ff09826ed2"},
-    {file = "black-24.4.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:4396ca365a4310beef84d446ca5016f671b10f07abdba3e4e4304218d2c71d33"},
-    {file = "black-24.4.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:44d99dfdf37a2a00a6f7a8dcbd19edf361d056ee51093b2445de7ca09adac965"},
-    {file = "black-24.4.0-cp312-cp312-win_amd64.whl", hash = "sha256:21f9407063ec71c5580b8ad975653c66508d6a9f57bd008bb8691d273705adcd"},
-    {file = "black-24.4.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:652e55bb722ca026299eb74e53880ee2315b181dfdd44dca98e43448620ddec1"},
-    {file = "black-24.4.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:7f2966b9b2b3b7104fca9d75b2ee856fe3fdd7ed9e47c753a4bb1a675f2caab8"},
-    {file = "black-24.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1bb9ca06e556a09f7f7177bc7cb604e5ed2d2df1e9119e4f7d2f1f7071c32e5d"},
-    {file = "black-24.4.0-cp38-cp38-win_amd64.whl", hash = "sha256:d4e71cdebdc8efeb6deaf5f2deb28325f8614d48426bed118ecc2dcaefb9ebf3"},
-    {file = "black-24.4.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:6644f97a7ef6f401a150cca551a1ff97e03c25d8519ee0bbc9b0058772882665"},
-    {file = "black-24.4.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:75a2d0b4f5eb81f7eebc31f788f9830a6ce10a68c91fbe0fade34fff7a2836e6"},
-    {file = "black-24.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:eb949f56a63c5e134dfdca12091e98ffb5fd446293ebae123d10fc1abad00b9e"},
-    {file = "black-24.4.0-cp39-cp39-win_amd64.whl", hash = "sha256:7852b05d02b5b9a8c893ab95863ef8986e4dda29af80bbbda94d7aee1abf8702"},
-    {file = "black-24.4.0-py3-none-any.whl", hash = "sha256:74eb9b5420e26b42c00a3ff470dc0cd144b80a766128b1771d07643165e08d0e"},
-    {file = "black-24.4.0.tar.gz", hash = "sha256:f07b69fda20578367eaebbd670ff8fc653ab181e1ff95d84497f9fa20e7d0641"},
+    {file = "black-24.4.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:dd1b5a14e417189db4c7b64a6540f31730713d173f0b63e55fabd52d61d8fdce"},
+    {file = "black-24.4.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:8e537d281831ad0e71007dcdcbe50a71470b978c453fa41ce77186bbe0ed6021"},
+    {file = "black-24.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:eaea3008c281f1038edb473c1aa8ed8143a5535ff18f978a318f10302b254063"},
+    {file = "black-24.4.2-cp310-cp310-win_amd64.whl", hash = "sha256:7768a0dbf16a39aa5e9a3ded568bb545c8c2727396d063bbaf847df05b08cd96"},
+    {file = "black-24.4.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:257d724c2c9b1660f353b36c802ccece186a30accc7742c176d29c146df6e474"},
+    {file = "black-24.4.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:bdde6f877a18f24844e381d45e9947a49e97933573ac9d4345399be37621e26c"},
+    {file = "black-24.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e151054aa00bad1f4e1f04919542885f89f5f7d086b8a59e5000e6c616896ffb"},
+    {file = "black-24.4.2-cp311-cp311-win_amd64.whl", hash = "sha256:7e122b1c4fb252fd85df3ca93578732b4749d9be076593076ef4d07a0233c3e1"},
+    {file = "black-24.4.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:accf49e151c8ed2c0cdc528691838afd217c50412534e876a19270fea1e28e2d"},
+    {file = "black-24.4.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:88c57dc656038f1ab9f92b3eb5335ee9b021412feaa46330d5eba4e51fe49b04"},
+    {file = "black-24.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:be8bef99eb46d5021bf053114442914baeb3649a89dc5f3a555c88737e5e98fc"},
+    {file = "black-24.4.2-cp312-cp312-win_amd64.whl", hash = "sha256:415e686e87dbbe6f4cd5ef0fbf764af7b89f9057b97c908742b6008cc554b9c0"},
+    {file = "black-24.4.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:bf10f7310db693bb62692609b397e8d67257c55f949abde4c67f9cc574492cc7"},
+    {file = "black-24.4.2-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:98e123f1d5cfd42f886624d84464f7756f60ff6eab89ae845210631714f6db94"},
+    {file = "black-24.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:48a85f2cb5e6799a9ef05347b476cce6c182d6c71ee36925a6c194d074336ef8"},
+    {file = "black-24.4.2-cp38-cp38-win_amd64.whl", hash = "sha256:b1530ae42e9d6d5b670a34db49a94115a64596bc77710b1d05e9801e62ca0a7c"},
+    {file = "black-24.4.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:37aae07b029fa0174d39daf02748b379399b909652a806e5708199bd93899da1"},
+    {file = "black-24.4.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:da33a1a5e49c4122ccdfd56cd021ff1ebc4a1ec4e2d01594fef9b6f267a9e741"},
+    {file = "black-24.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ef703f83fc32e131e9bcc0a5094cfe85599e7109f896fe8bc96cc402f3eb4b6e"},
+    {file = "black-24.4.2-cp39-cp39-win_amd64.whl", hash = "sha256:b9176b9832e84308818a99a561e90aa479e73c523b3f77afd07913380ae2eab7"},
+    {file = "black-24.4.2-py3-none-any.whl", hash = "sha256:d36ed1124bb81b32f8614555b34cc4259c3fbc7eec17870e8ff8ded335b58d8c"},
+    {file = "black-24.4.2.tar.gz", hash = "sha256:c872b53057f000085da66a19c55d68f6f8ddcac2642392ad3a355878406fbd4d"},
 ]
 
 [package.dependencies]
@@ -167,17 +167,17 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.34.84"
+version = "1.34.117"
 description = "The AWS SDK for Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "boto3-1.34.84-py3-none-any.whl", hash = "sha256:7a02f44af32095946587d748ebeb39c3fa15b9d7275307ff612a6760ead47e04"},
-    {file = "boto3-1.34.84.tar.gz", hash = "sha256:91e6343474173e9b82f603076856e1d5b7b68f44247bdd556250857a3f16b37b"},
+    {file = "boto3-1.34.117-py3-none-any.whl", hash = "sha256:1506589e30566bbb2f4997b60968ff7d4ef8a998836c31eedd36437ac3b7408a"},
+    {file = "boto3-1.34.117.tar.gz", hash = "sha256:c8a383b904d6faaf7eed0c06e31b423db128e4c09ce7bd2afc39d1cd07030a51"},
 ]
 
 [package.dependencies]
-botocore = ">=1.34.84,<1.35.0"
+botocore = ">=1.34.117,<1.35.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.10.0,<0.11.0"
 
@@ -186,13 +186,13 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.34.84"
+version = "1.34.117"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "botocore-1.34.84-py3-none-any.whl", hash = "sha256:da1ae0a912e69e10daee2a34dafd6c6c106450d20b8623665feceb2d96c173eb"},
-    {file = "botocore-1.34.84.tar.gz", hash = "sha256:a2b309bf5594f0eb6f63f355ade79ba575ce8bf672e52e91da1a7933caa245e6"},
+    {file = "botocore-1.34.117-py3-none-any.whl", hash = "sha256:26a431997f882bcdd1e835f44c24b2a1752b1c4e5183c2ce62999ce95d518d6c"},
+    {file = "botocore-1.34.117.tar.gz", hash = "sha256:4637ca42e6c51aebc4d9a2d92f97bf4bdb042e3f7985ff31a659a11e4c170e73"},
 ]
 
 [package.dependencies]
@@ -204,7 +204,7 @@ urllib3 = [
 ]
 
 [package.extras]
-crt = ["awscrt (==0.19.19)"]
+crt = ["awscrt (==0.20.9)"]
 
 [[package]]
 name = "cachetools"
@@ -517,12 +517,13 @@ protobuf = ["grpcio-tools (>=1.60.1)"]
 
 [[package]]
 name = "hiyapyco"
-version = "0.5.5"
+version = "0.6.0"
 description = "Hierarchical Yaml Python Config"
 optional = false
 python-versions = "*"
 files = [
-    {file = "HiYaPyCo-0.5.5.tar.gz", hash = "sha256:dbba5132d4bf3809010d86d2fff78691dd797f7bf2bf0426aa3593c004837e7a"},
+    {file = "HiYaPyCo-0.6.0-py2.py3-none-any.whl", hash = "sha256:cf54f743f6f2491e18df927fbd78d386c0003c5ff0dceffec8434f8ca8fb0c75"},
+    {file = "HiYaPyCo-0.6.0.tar.gz", hash = "sha256:346f8ac29d2283246a39137e09211e4afd9df06ff03de74898be410d74574498"},
 ]
 
 [package.dependencies]
@@ -587,13 +588,13 @@ six = "*"
 
 [[package]]
 name = "jinja2"
-version = "3.1.3"
+version = "3.1.4"
 description = "A very fast and expressive template engine."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "Jinja2-3.1.3-py3-none-any.whl", hash = "sha256:7d6d50dd97d52cbc355597bd845fabfbac3f551e1f99619e39a35ce8c370b5fa"},
-    {file = "Jinja2-3.1.3.tar.gz", hash = "sha256:ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90"},
+    {file = "jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"},
+    {file = "jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369"},
 ]
 
 [package.dependencies]
@@ -818,13 +819,13 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-
 
 [[package]]
 name = "poethepoet"
-version = "0.25.1"
+version = "0.26.1"
 description = "A task runner that works well with poetry."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "poethepoet-0.25.1-py3-none-any.whl", hash = "sha256:fee433f68424593bca6b357f0bf997d64edf42c7305c0d5d335bd570b8d2352b"},
-    {file = "poethepoet-0.25.1.tar.gz", hash = "sha256:98f4446533a4b2bdb08843e211f918b1f2e7f8baf6d1803ef78f64661ed62463"},
+    {file = "poethepoet-0.26.1-py3-none-any.whl", hash = "sha256:aa43b443fec5d17d7e76771cccd484e5285805301721a74f059c483ad3276edd"},
+    {file = "poethepoet-0.26.1.tar.gz", hash = "sha256:aaad8541f6072617a60bcff2562d00779b58b353bd0f1847b06d8d0f2b6dc192"},
 ]
 
 [package.dependencies]
@@ -856,12 +857,12 @@ files = [
 
 [[package]]
 name = "pulumi"
-version = "3.112.0"
+version = "3.118.0"
 description = "Pulumi's Python SDK"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi-3.112.0-py3-none-any.whl", hash = "sha256:83543b13df444259d0709ab00d00c94ad4ad6ca84851b3623d30cd3a9503757d"},
+    {file = "pulumi-3.118.0-py3-none-any.whl", hash = "sha256:ec8323fe25233ad2eebd50548137b6cde12db8849153ef422c4baae6a04bfc87"},
 ]
 
 [package.dependencies]
@@ -874,13 +875,13 @@ six = ">=1.12,<2.0"
 
 [[package]]
 name = "pulumi-aws"
-version = "6.30.0"
+version = "6.38.0"
 description = "A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_aws-6.30.0-py3-none-any.whl", hash = "sha256:519f7653741b0e988dbc70481c680ae1e8bbfaf21e09e05b788efb05027dcd11"},
-    {file = "pulumi_aws-6.30.0.tar.gz", hash = "sha256:6b59643d176e1960b710442928ebb5d5e99b8b08c09bcf54be7e52caa80a4253"},
+    {file = "pulumi_aws-6.38.0-py3-none-any.whl", hash = "sha256:dcee0d2d0b892d01cc21ff02f8b93086ab1522d2c72d2b8d508e4ad5f28f4512"},
+    {file = "pulumi_aws-6.38.0.tar.gz", hash = "sha256:d6f5868e09ee22a58fbc19e7aabeb21193e106d87f362fe3ca135361ab867b24"},
 ]
 
 [package.dependencies]
@@ -890,13 +891,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-azure-native"
-version = "2.36.0"
+version = "2.43.1"
 description = "A native Pulumi package for creating and managing Azure resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_azure_native-2.36.0-py3-none-any.whl", hash = "sha256:324d33328b4171e37ea0a044ab537cc06aa8a443c988b9d937c3c254faff6c8f"},
-    {file = "pulumi_azure_native-2.36.0.tar.gz", hash = "sha256:29cbe5a32d6d5b0614db8c544ed28a2f5f0badce533d639b81b284b65f6772ad"},
+    {file = "pulumi_azure_native-2.43.1-py3-none-any.whl", hash = "sha256:15688cbbd1973b88b8b376da502616f7856d6de308a2782b36050392600051e3"},
+    {file = "pulumi_azure_native-2.43.1.tar.gz", hash = "sha256:88e4b92092220c47df9cf62e903205889d7b1e7c31c99145baced9b551ca73e4"},
 ]
 
 [package.dependencies]
@@ -906,13 +907,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-azuread"
-version = "5.47.2"
+version = "5.50.0"
 description = "A Pulumi package for creating and managing Azure Active Directory (Azure AD) cloud resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_azuread-5.47.2-py3-none-any.whl", hash = "sha256:03b4e30c654a504c70a0060d7fc63eb71bcc363b87849e5054cc1e487ca31d84"},
-    {file = "pulumi_azuread-5.47.2.tar.gz", hash = "sha256:0d3760d5c09ef1d0a2c3130518098daf1abe85bdd312de840ee1b3ddced7bd92"},
+    {file = "pulumi_azuread-5.50.0-py3-none-any.whl", hash = "sha256:8b6e8d1bcf0e0ba0f4f6895c919eef084f6d5e8241545b60b7b29088087b6973"},
+    {file = "pulumi_azuread-5.50.0.tar.gz", hash = "sha256:3ce2a9de9e67edc94c98ffc6890639e057f1dc5e8f3cea8a5a6eb63da58a59ef"},
 ]
 
 [package.dependencies]
@@ -922,13 +923,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-cloudflare"
-version = "5.25.0"
+version = "5.29.0"
 description = "A Pulumi package for creating and managing Cloudflare cloud resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_cloudflare-5.25.0-py3-none-any.whl", hash = "sha256:19726f2608d36aabc69a23ba3c8543b4a0c7d4ded6450b093270146d96c8f819"},
-    {file = "pulumi_cloudflare-5.25.0.tar.gz", hash = "sha256:a9084a5f39d37e29e301aba7b6d78be5dbd733408b3544a1e44db406b87b30c0"},
+    {file = "pulumi_cloudflare-5.29.0-py3-none-any.whl", hash = "sha256:95d27a8b62fb8bf0a28e449edf599649e98553af2e8510f773ab8f72000ad27c"},
+    {file = "pulumi_cloudflare-5.29.0.tar.gz", hash = "sha256:1465195a84ba856299a948b3ef01329b67e4ffcf7d98c3032740f59b7bfb9615"},
 ]
 
 [package.dependencies]
@@ -938,13 +939,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-datadog"
-version = "4.27.0"
+version = "4.28.0"
 description = "A Pulumi package for creating and managing Datadog resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_datadog-4.27.0-py3-none-any.whl", hash = "sha256:07a3bedb7b58c0ccb38a2b151e09139d0b070365f2607a0d542f4e550e9e4aed"},
-    {file = "pulumi_datadog-4.27.0.tar.gz", hash = "sha256:588999ab3a4d7f8e002591e6385f8612718f5c65d34a2146efa8f573e79e9fb0"},
+    {file = "pulumi_datadog-4.28.0-py3-none-any.whl", hash = "sha256:e0afb7676e641d0579796971a048c3ee892631e5dff482ee3e3294b58870cd91"},
+    {file = "pulumi_datadog-4.28.0.tar.gz", hash = "sha256:2f9ed78d20db982c5e230cf6fa683597431fee18c613b2db71d1efe4412637e4"},
 ]
 
 [package.dependencies]
@@ -954,13 +955,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-kubernetes"
-version = "4.10.0"
+version = "4.12.0"
 description = "A Pulumi package for creating and managing Kubernetes resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_kubernetes-4.10.0-py3-none-any.whl", hash = "sha256:1b6e029fb2378064f70bf531343082280b6e59df345b2439d6ff97f1d586e5f1"},
-    {file = "pulumi_kubernetes-4.10.0.tar.gz", hash = "sha256:49b5c3e53e1f6952278793c06fe9a21c716c85ea469a597b931186b03fef7f85"},
+    {file = "pulumi_kubernetes-4.12.0-py3-none-any.whl", hash = "sha256:f2326b6d3054f985d90976cedca159cc7490a70380e07865b287a4ba458c4c8f"},
+    {file = "pulumi_kubernetes-4.12.0.tar.gz", hash = "sha256:b00923c5cabf98b40dc90123f408a15fa5ae5b3474cc1da2f0658617613c9fb5"},
 ]
 
 [package.dependencies]
@@ -971,13 +972,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-postgresql"
-version = "3.11.0"
+version = "3.11.1"
 description = "A Pulumi package for creating and managing postgresql cloud resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_postgresql-3.11.0-py3-none-any.whl", hash = "sha256:fd5695b4fe3bb76f786f0ccdbc7c7c26c3d120c15064f47551b57c5c993d8d30"},
-    {file = "pulumi_postgresql-3.11.0.tar.gz", hash = "sha256:9382c2e5c2e417d0707c01ecde062484fed3e5a850ca254a7610fad3e49da496"},
+    {file = "pulumi_postgresql-3.11.1-py3-none-any.whl", hash = "sha256:79b2a2d034719e173856a3c5e83330aa69391254e1d47cdd5b86e0d1b9188334"},
+    {file = "pulumi_postgresql-3.11.1.tar.gz", hash = "sha256:d8c1b8dbd05f4ce2e1ff7a3d51a96155304a3a5fbb829c8e9ed28a9ec93414d5"},
 ]
 
 [package.dependencies]
@@ -987,13 +988,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-random"
-version = "4.16.0"
+version = "4.16.2"
 description = "A Pulumi package to safely use randomness in Pulumi programs."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_random-4.16.0-py3-none-any.whl", hash = "sha256:e4be4899011dcee4fe0fe5aae8498148789d098e9d9b919645e2238bc8281fa6"},
-    {file = "pulumi_random-4.16.0.tar.gz", hash = "sha256:ac116f3551707be64cf0d6f691500f4b8b8038d1b704d2785777c5ed5b6a685f"},
+    {file = "pulumi_random-4.16.2-py3-none-any.whl", hash = "sha256:3b15a9f69910901425e329a8e0545c329c2ebb271b8e6b9de535e1af8223e1e7"},
+    {file = "pulumi_random-4.16.2.tar.gz", hash = "sha256:8c13420a59af1bbce67ceed08b0c09bb7e43d0eebb6dc71414430b6ca401b788"},
 ]
 
 [package.dependencies]
@@ -1003,13 +1004,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-tls"
-version = "5.0.2"
+version = "5.0.3"
 description = "A Pulumi package to create TLS resources in Pulumi programs."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_tls-5.0.2-py3-none-any.whl", hash = "sha256:f348a444f0b7f28498e87fe65faee391ea6c9849cbfe91fe95629b3aa8d92cb0"},
-    {file = "pulumi_tls-5.0.2.tar.gz", hash = "sha256:3a1ef283dbe4b8a69cfcb8f0b78027c7f7d33be3364ebf59bfe68adcef20b675"},
+    {file = "pulumi_tls-5.0.3-py3-none-any.whl", hash = "sha256:b2dd817d6ee29d01f24d9cb1816db4400e73d5bb49a8ad8eace3b8357e7d4075"},
+    {file = "pulumi_tls-5.0.3.tar.gz", hash = "sha256:d99dd6b87b0166f44b71a6bf4c4f2e41539bd0eea0efc62d4de388e2dd815796"},
 ]
 
 [package.dependencies]
@@ -1258,20 +1259,20 @@ files = [
 
 [[package]]
 name = "sphinx"
-version = "7.2.6"
+version = "7.3.7"
 description = "Python documentation generator"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "sphinx-7.2.6-py3-none-any.whl", hash = "sha256:1e09160a40b956dc623c910118fa636da93bd3ca0b9876a7b3df90f07d691560"},
-    {file = "sphinx-7.2.6.tar.gz", hash = "sha256:9a5160e1ea90688d5963ba09a2dcd8bdd526620edbb65c328728f1b2228d5ab5"},
+    {file = "sphinx-7.3.7-py3-none-any.whl", hash = "sha256:413f75440be4cacf328f580b4274ada4565fb2187d696a84970c23f77b64d8c3"},
+    {file = "sphinx-7.3.7.tar.gz", hash = "sha256:a4a7db75ed37531c05002d56ed6948d4c42f473a36f46e1382b0bd76ca9627bc"},
 ]
 
 [package.dependencies]
-alabaster = ">=0.7,<0.8"
+alabaster = ">=0.7.14,<0.8.0"
 babel = ">=2.9"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
-docutils = ">=0.18.1,<0.21"
+docutils = ">=0.18.1,<0.22"
 imagesize = ">=1.3"
 importlib-metadata = {version = ">=4.8", markers = "python_version < \"3.10\""}
 Jinja2 = ">=3.0"
@@ -1285,11 +1286,12 @@ sphinxcontrib-htmlhelp = ">=2.0.0"
 sphinxcontrib-jsmath = "*"
 sphinxcontrib-qthelp = "*"
 sphinxcontrib-serializinghtml = ">=1.1.9"
+tomli = {version = ">=2", markers = "python_version < \"3.11\""}
 
 [package.extras]
 docs = ["sphinxcontrib-websupport"]
-lint = ["docutils-stubs", "flake8 (>=3.5.0)", "flake8-simplify", "isort", "mypy (>=0.990)", "ruff", "sphinx-lint", "types-requests"]
-test = ["cython (>=3.0)", "filelock", "html5lib", "pytest (>=4.6)", "setuptools (>=67.0)"]
+lint = ["flake8 (>=3.5.0)", "importlib_metadata", "mypy (==1.9.0)", "pytest (>=6.0)", "ruff (==0.3.7)", "sphinx-lint", "tomli", "types-docutils", "types-requests"]
+test = ["cython (>=3.0)", "defusedxml (>=0.7.1)", "pytest (>=6.0)", "setuptools (>=67.0)"]
 
 [[package]]
 name = "sphinxcontrib-applehelp"
@@ -1493,4 +1495,4 @@ azure = ["azure-core", "azure-mgmt-authorization", "pulumi-azure-native", "pulum
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "4e917306381af65b0921f024505bbc4540c2139dd28545fd0c8ece77827f140a"
+content-hash = "327e26baf5bf7390233d068f72c64d7ffa1f29110dbcc979c6887502007cd87b"
