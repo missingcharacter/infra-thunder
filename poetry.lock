@@ -167,17 +167,17 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.34.127"
+version = "1.34.136"
 description = "The AWS SDK for Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "boto3-1.34.127-py3-none-any.whl", hash = "sha256:d370befe4fb7aea5bc383057d7dad18dda5d0cf3cd3295915bcc8c8c4191905c"},
-    {file = "boto3-1.34.127.tar.gz", hash = "sha256:58ccdeae3a96811ecc9d5d866d8226faadbd0ee1891756e4a04d5186e9a57a64"},
+    {file = "boto3-1.34.136-py3-none-any.whl", hash = "sha256:d41037e2c680ab8d6c61a0a4ee6bf1fdd9e857f43996672830a95d62d6f6fa79"},
+    {file = "boto3-1.34.136.tar.gz", hash = "sha256:0314e6598f59ee0f34eb4e6d1a0f69fa65c146d2b88a6e837a527a9956ec2731"},
 ]
 
 [package.dependencies]
-botocore = ">=1.34.127,<1.35.0"
+botocore = ">=1.34.136,<1.35.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.10.0,<0.11.0"
 
@@ -186,13 +186,13 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.34.127"
+version = "1.34.136"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "botocore-1.34.127-py3-none-any.whl", hash = "sha256:e14fa28c8bb141de965e700f88b196d17c67a703c7f0f5c7e14f7dd1cf636011"},
-    {file = "botocore-1.34.127.tar.gz", hash = "sha256:a377871742c40603d559103f19acb7bc93cfaf285e68f21b81637ec396099877"},
+    {file = "botocore-1.34.136-py3-none-any.whl", hash = "sha256:c63fe9032091fb9e9477706a3ebfa4d0c109b807907051d892ed574f9b573e61"},
+    {file = "botocore-1.34.136.tar.gz", hash = "sha256:7f7135178692b39143c8f152a618d2a3b71065a317569a7102d2306d4946f42f"},
 ]
 
 [package.dependencies]
@@ -819,13 +819,13 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-
 
 [[package]]
 name = "poethepoet"
-version = "0.26.1"
+version = "0.27.0"
 description = "A task runner that works well with poetry."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "poethepoet-0.26.1-py3-none-any.whl", hash = "sha256:aa43b443fec5d17d7e76771cccd484e5285805301721a74f059c483ad3276edd"},
-    {file = "poethepoet-0.26.1.tar.gz", hash = "sha256:aaad8541f6072617a60bcff2562d00779b58b353bd0f1847b06d8d0f2b6dc192"},
+    {file = "poethepoet-0.27.0-py3-none-any.whl", hash = "sha256:0032d980a623b96e26dc7450ae200b0998be523f27d297d799b97510fe252a24"},
+    {file = "poethepoet-0.27.0.tar.gz", hash = "sha256:907ab4dc1bc6326be5a3b10d2aa39d1acc0ca12024317d9506fbe9c0cdc912c9"},
 ]
 
 [package.dependencies]
@@ -857,12 +857,12 @@ files = [
 
 [[package]]
 name = "pulumi"
-version = "3.120.0"
+version = "3.121.0"
 description = "Pulumi's Python SDK"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi-3.120.0-py3-none-any.whl", hash = "sha256:786f0bd54c64e15afba92a4a5c22480d2c322315d867c1532525c069a7615b09"},
+    {file = "pulumi-3.121.0-py3-none-any.whl", hash = "sha256:065064239527acd4e141e19c095d0ceb3ae175a0111586a81897edf85b29632f"},
 ]
 
 [package.dependencies]
@@ -875,29 +875,30 @@ six = ">=1.12,<2.0"
 
 [[package]]
 name = "pulumi-aws"
-version = "6.40.0"
+version = "6.42.0"
 description = "A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_aws-6.40.0-py3-none-any.whl", hash = "sha256:51dceec7f918d3ad3161ccf3ce0a8d0200cbfe88af7258a558ad9442ddfcd2dd"},
-    {file = "pulumi_aws-6.40.0.tar.gz", hash = "sha256:f3cba2c64cd0e405e694b435760cee21ca869d671ff50831e316cd4d7362d927"},
+    {file = "pulumi_aws-6.42.0-py3-none-any.whl", hash = "sha256:204478f7227b4cf4ada77fb12b11e9f0e7d60755368f26668510d31a0f190e68"},
+    {file = "pulumi_aws-6.42.0.tar.gz", hash = "sha256:3f061b1a60a73ad0251e367727acab777c68f0961e609b48837e76551d62bf01"},
 ]
 
 [package.dependencies]
 parver = ">=0.2.1"
 pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
+typing-extensions = {version = ">=4.11", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "pulumi-azure-native"
-version = "2.45.0"
+version = "2.47.1"
 description = "A native Pulumi package for creating and managing Azure resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_azure_native-2.45.0-py3-none-any.whl", hash = "sha256:745b8361f2817bc0cccf0fca14f216fab849ff381d325cda214c5ef0a23d0a4d"},
-    {file = "pulumi_azure_native-2.45.0.tar.gz", hash = "sha256:a9894b6b6114a5f9950e9d5318b12a651830330be9c9ddfdaaa57ed1cd2b02d5"},
+    {file = "pulumi_azure_native-2.47.1-py3-none-any.whl", hash = "sha256:fd206faabb68e49a332b97c0838f16306cf4b7af7b192728a041448d7d5b659f"},
+    {file = "pulumi_azure_native-2.47.1.tar.gz", hash = "sha256:ab1882e3bc953b5bcfe7860347c6fa844b5f1a1d1db47fc5831fac1d1d0893c1"},
 ]
 
 [package.dependencies]
@@ -907,13 +908,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-azuread"
-version = "5.52.0"
+version = "5.53.0"
 description = "A Pulumi package for creating and managing Azure Active Directory (Azure AD) cloud resources."
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_azuread-5.52.0-py3-none-any.whl", hash = "sha256:228ef02b5eb87dbee94781a87889d9253460a204677572800d14a62bb288cc0e"},
-    {file = "pulumi_azuread-5.52.0.tar.gz", hash = "sha256:f4d1e525a2a50d7ee2c390f70ee15b53f0babeac512329071e799e834dfbb1c7"},
+    {file = "pulumi_azuread-5.53.0-py3-none-any.whl", hash = "sha256:df929c0a73bd0a8cced38f188dcf664b00acb9dd17fe5594a82b6afdeafd5da0"},
+    {file = "pulumi_azuread-5.53.0.tar.gz", hash = "sha256:f4dbdfafd50eb2ceb991f6015313aaebc9f0c4ff3d2b8c4c0d3acf3dc9c286cf"},
 ]
 
 [package.dependencies]
@@ -923,13 +924,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-cloudflare"
-version = "5.31.0"
+version = "5.33.1"
 description = "A Pulumi package for creating and managing Cloudflare cloud resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_cloudflare-5.31.0-py3-none-any.whl", hash = "sha256:07901a602a6c5b3908c1f19dd5d6a79bad0a927b4ca01de48cdd999702b96404"},
-    {file = "pulumi_cloudflare-5.31.0.tar.gz", hash = "sha256:cf80e0ef218974b66671595ca0c45d7d30f5dcbb1c9f4c9859d20bbc9c9d1d1c"},
+    {file = "pulumi_cloudflare-5.33.1-py3-none-any.whl", hash = "sha256:10059c5697d29d2d643ac6a2233d9ed0e5b30d2e8f923eda64d670c3e65c5441"},
+    {file = "pulumi_cloudflare-5.33.1.tar.gz", hash = "sha256:b32142d9dd5db6367069b3cb68769b53d753226bc8f079c3bc798ca092444ecb"},
 ]
 
 [package.dependencies]
@@ -939,13 +940,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-datadog"
-version = "4.28.0"
+version = "4.28.1"
 description = "A Pulumi package for creating and managing Datadog resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_datadog-4.28.0-py3-none-any.whl", hash = "sha256:e0afb7676e641d0579796971a048c3ee892631e5dff482ee3e3294b58870cd91"},
-    {file = "pulumi_datadog-4.28.0.tar.gz", hash = "sha256:2f9ed78d20db982c5e230cf6fa683597431fee18c613b2db71d1efe4412637e4"},
+    {file = "pulumi_datadog-4.28.1-py3-none-any.whl", hash = "sha256:693988e68a47ec3e755b156283d915b9c36275d20462c0cd65cbd225a5f2376d"},
+    {file = "pulumi_datadog-4.28.1.tar.gz", hash = "sha256:732b15480244a66f4be98311755bece89655e9373eb27ebcb30bef0f2464ab7f"},
 ]
 
 [package.dependencies]
@@ -955,13 +956,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-kubernetes"
-version = "4.13.1"
+version = "4.14.0"
 description = "A Pulumi package for creating and managing Kubernetes resources."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_kubernetes-4.13.1-py3-none-any.whl", hash = "sha256:52f0cb6276bb232f0ed966f7fe753aa01b91c6c77add146b84007d4cc5a2de7d"},
-    {file = "pulumi_kubernetes-4.13.1.tar.gz", hash = "sha256:c0b4010bc692cc7b5a099cd7ab3c78a9eb81f414cb0d59ca78bc192bfc801268"},
+    {file = "pulumi_kubernetes-4.14.0-py3-none-any.whl", hash = "sha256:4ef02e7d82a18e4c7a4232a8bad70b1b410836dabf51f4ca29218f979f8a5b00"},
+    {file = "pulumi_kubernetes-4.14.0.tar.gz", hash = "sha256:a323bb33552d4481bee0824a494da660fe778ac0b5597b978c7ccbf912289542"},
 ]
 
 [package.dependencies]
@@ -969,6 +970,7 @@ parver = ">=0.2.1"
 pulumi = ">=3.109.0,<4.0.0"
 requests = ">=2.21,<3.0"
 semver = ">=2.8.1"
+typing-extensions = {version = ">=4.11", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "pulumi-postgresql"
@@ -988,13 +990,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-random"
-version = "4.16.2"
+version = "4.16.3"
 description = "A Pulumi package to safely use randomness in Pulumi programs."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pulumi_random-4.16.2-py3-none-any.whl", hash = "sha256:3b15a9f69910901425e329a8e0545c329c2ebb271b8e6b9de535e1af8223e1e7"},
-    {file = "pulumi_random-4.16.2.tar.gz", hash = "sha256:8c13420a59af1bbce67ceed08b0c09bb7e43d0eebb6dc71414430b6ca401b788"},
+    {file = "pulumi_random-4.16.3-py3-none-any.whl", hash = "sha256:5f4c260ec9dd0683d764194936f8513b5931a38a1a84d1fea91018883043b324"},
+    {file = "pulumi_random-4.16.3.tar.gz", hash = "sha256:0eabfe233d4c59ab20b54c5651b61c488ca0d05cd1b14988646e884d2520a969"},
 ]
 
 [package.dependencies]
@@ -1495,4 +1497,4 @@ azure = ["azure-core", "azure-mgmt-authorization", "pulumi-azure-native", "pulum
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "8c7890f7ba411add82f10334136ad7cdd1b0c64cd5cd7e47a10fe11f574964d8"
+content-hash = "0d68c2f5c8eabd0d7ceb0a091aa886097d49fea70306d0c3248d94a18001698b"
