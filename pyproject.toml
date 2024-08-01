@@ -5,7 +5,7 @@ description = "Modules to build a SysEnv using Pulumi"
 authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 pulumi = "3.127.0"
 pulumi-kubernetes = "4.15.0"
 pulumi-tls = "5.0.4"
