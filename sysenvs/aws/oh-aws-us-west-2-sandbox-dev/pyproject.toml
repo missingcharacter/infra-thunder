@@ -6,7 +6,7 @@ authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-infra-thunder = {git = "git@github.com:missingcharacter/infra-thunder.git", rev = "d9c8e0a7df27760d9cc19a2d4e32ce8bedaeceb3", extras = ["aws"]}
+infra-thunder = {git = "git@github.com:missingcharacter/infra-thunder.git", rev = "b64195790bba7b468d28629b4f9deb2cfdc28d5a", extras = ["aws"]}
 #infra-thunder = { path = "/local/path/to/infra-thunder-public", extras = ["aws"], develop = true }
 
 [tool.poetry.group.dev.dependencies]
