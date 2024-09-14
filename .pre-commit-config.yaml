@@ -13,19 +13,19 @@ repos:
           - poe
           - format
   - repo: https://github.com/lyz-code/yamlfix/
-    rev: 1.16.0
+    rev: 1.17.0
     hooks:
       - id: yamlfix
         exclude: .*\.tpl\.yaml
   - repo: https://github.com/Yelp/detect-secrets
-    rev: v1.4.0
+    rev: v1.5.0
     hooks:
       - id: detect-secrets
         args:
           - --baseline
           - .secrets.baseline
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: check-merge-conflict
       - id: end-of-file-fixer
@@ -42,7 +42,7 @@ repos:
       - id: check-toml
       - id: mixed-line-ending
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.39.0
+    rev: v0.41.0
     hooks:
       - id: markdownlint-fix
   - repo: https://github.com/gruntwork-io/pre-commit
@@ -51,6 +51,6 @@ repos:
       - id: shellcheck
         exclude: .*\.sh\.j2
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.6.26
+    rev: v1.7.1
     hooks:
       - id: actionlint-system
