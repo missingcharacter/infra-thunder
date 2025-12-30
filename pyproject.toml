@@ -6,21 +6,21 @@ authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pulumi = "3.181.0"
-pulumi-kubernetes = "4.23.0"
-pulumi-tls = "5.2.0"
-pulumi-datadog = "4.51.0"
-pulumi_random = "4.18.2"
-pulumi-aws = { version = "6.83.0", optional = true }
-pulumi-azure-native = { version = "3.5.1", optional = true }
-pulumi-azuread = { version = "6.5.1", optional = true }
-azure-core = { version = "1.34.0", optional = true }
+pulumi = "3.214.0"
+pulumi-kubernetes = "4.24.1"
+pulumi-tls = "5.2.3"
+pulumi-datadog = "4.61.0"
+pulumi_random = "4.18.4"
+pulumi-aws = { version = "7.15.0", optional = true }
+pulumi-azure-native = { version = "3.12.0", optional = true }
+pulumi-azuread = { version = "6.8.0", optional = true }
+azure-core = { version = "1.37.0", optional = true }
 azure-mgmt-authorization = { version = "4.0.0", optional = true }
-kubernetes = "^33.0.0"
+kubernetes = "^34.0.0"
 dacite = "1.9.2"
 # Pinned because HiYaPyCo is not compatible with newer versions of Jinja2
 Jinja2 = "3.1.6"
-Sphinx = "8.2.3"
+Sphinx = "9.0.4"
 HiYaPyCo = "^0.7.0"
 wheel = "^0.45.0"
 jmespath = "^1.0.0"
@@ -28,7 +28,7 @@ boto3 = "^1.33.13"
 click = "^8.1.7"
 click-option-group = "^0.5.6"
 # Pinned because we cannot bump to a new Jinja2 because of HiYaPyCo
-MarkupSafe = "3.0.2"
+MarkupSafe = "3.0.3"
 pulumi-cloudflare = "^6.0.0"
 pulumi-postgresql = "^3.10.0"
 
@@ -39,7 +39,7 @@ azure = ["pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-auth
 all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-authorization"]
 
 [tool.poetry.group.dev.dependencies]
-poethepoet = "^0.35.0"
+poethepoet = "^0.39.0"
 black = "^25.0.0"
 flake8 = "^7.0.0"
 
