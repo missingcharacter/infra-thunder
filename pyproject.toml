@@ -5,22 +5,22 @@ description = "Modules to build a SysEnv using Pulumi"
 authors = ["Infra Thunder Admins <admin@nodomain.local>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pulumi = "3.214.0"
+python = "^3.12"
+pulumi = "3.215.0"
 pulumi-kubernetes = "4.24.1"
 pulumi-tls = "5.2.3"
 pulumi-datadog = "4.61.0"
-pulumi_random = "4.18.4"
-pulumi-aws = { version = "7.15.0", optional = true }
+pulumi_random = "4.18.5"
+pulumi-aws = { version = "7.16.0", optional = true }
 pulumi-azure-native = { version = "3.12.0", optional = true }
 pulumi-azuread = { version = "6.8.0", optional = true }
-azure-core = { version = "1.37.0", optional = true }
+azure-core = { version = "1.38.0", optional = true }
 azure-mgmt-authorization = { version = "4.0.0", optional = true }
 kubernetes = "^34.0.0"
 dacite = "1.9.2"
 # Pinned because HiYaPyCo is not compatible with newer versions of Jinja2
 Jinja2 = "3.1.6"
-Sphinx = "9.0.4"
+Sphinx = "9.1.0"
 HiYaPyCo = "^0.7.0"
 wheel = "^0.45.0"
 jmespath = "^1.0.0"
@@ -39,7 +39,7 @@ azure = ["pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-auth
 all = ["pulumi-aws", "pulumi-azure-native", "pulumi-azuread", "azure-core", "azure-mgmt-authorization"]
 
 [tool.poetry.group.dev.dependencies]
-poethepoet = "^0.39.0"
+poethepoet = "^0.40.0"
 black = "^25.0.0"
 flake8 = "^7.0.0"
 
